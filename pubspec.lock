@@ -577,6 +577,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
+  private_keys:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: f5809477bc7f9e045525c3319fe317f3392467f3
+      url: "git@github.com:kenresoft/private_keys.git"
+    source: git
+    version: "0.0.1"
   process:
     dependency: transitive
     description:
