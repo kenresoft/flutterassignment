@@ -9,7 +9,7 @@ class Constants {
   static const String error = '/error';
 
   static const String _contentType = 'application/json';
-  static const String _apiKey = key.Constants.rapidApiKey;
+  static const String _apiKey = key.rapidApiKey;
 
   static const String language = 'en';
   static const String _apiHostWord = 'profanity-cleaner-bad-word-filter.p.rapidapi.com';

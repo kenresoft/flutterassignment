@@ -19,8 +19,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  MyApp({Key? key, required this.isMaterial}) : super(key: key);
-  final bool isMaterial;
+  MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -52,37 +51,16 @@ class MyApp extends StatelessWidget {
 }
 
 GoRoute route(String path, Widget route) {
-  return routeTransition(path, route);
-  /*return GoRoute(
-    path: path,
-    builder: (BuildContext context, GoRouterState state) => route,
-  );*/
-}
-
-GoRoute routeTransition(String path, Widget route) {
   return GoRoute(
     path: path,
-    pageBuilder: (context, state) => CustomTransitionPage(
-      child: route,
-      transitionsBuilder: (context, animation, _, child) => FadeTransition(
-        opacity: CurvedAnimation(parent: animation, curve: Curves.easeInOutBack),
-        child: child,
-      ),
-      transitionDuration: const Duration(seconds: 1),
-    ),
+    builder: (BuildContext context, GoRouterState state) => route,
   );
-}
-
-launch(BuildContext context, String route, [Object? extra]) {
-  GoRouter.of(context).push(route, extra: extra);
 }
 
 FutureOr appCallback(void value) {
   runApp(
     ProviderScope(
-      child: MyApp(
-        isMaterial: true,
-      ),
+      child: MyApp(),
     ),
   );
 }

@@ -6,6 +6,9 @@ Expected to create a demo app which contains 2 features:
 1. Verify bad(Profanity) words when ever you are typing on textfield.
 2. Verify nudity content of Images.
 
+## Screenshots
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
