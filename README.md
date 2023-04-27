@@ -9,9 +9,9 @@ Expected to create a demo app which contains 2 features:
 
 ## Screenshots
 
-<img alt="screenshot 1" src="screenshots/Screenshot_20230407-150948.jpg" title="Simple screen" width="300" height="600"/>
-<img alt="screenshot 2" src="screenshots/Screenshot_20230407-151155.jpg" title="Profane word detection and filtering" width="300" height="600"/>
-<img alt="screenshot 3"  src="screenshots/Screenshot_20230407-151242.jpg" title="Empty Word and Image detection" width="300" height="600"/>
+<img alt="screenshot 1" src="screenshots/Screenshot_20230407-150948.jpg" title="Simple screen" width="225" height="510"/>
+<img alt="screenshot 2" src="screenshots/Screenshot_20230407-151155.jpg" title="Profane word detection and filtering" width="225" height="510"/>
+<img alt="screenshot 3"  src="screenshots/Screenshot_20230407-151242.jpg" title="Empty Word and Image detection" width="225" height="510"/>
 
 ## Responses
 
